@@ -22,13 +22,6 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | b
 # Install vercel
 npm install -g vercel
 
-# Install Adobe I/O CLI
-RUN npm install -g @adobe/aio-cli
-RUN aio telemetry off
-
-#Install the API Mesh plugin
-RUN aio plugins:install @adobe/aio-cli-plugin-api-mesh
-
 # Set working directory
 WORKDIR /app
 
