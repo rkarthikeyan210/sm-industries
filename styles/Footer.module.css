@@ -1,0 +1,25 @@
+.footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.socialMedia {
+  margin-top: 1rem;
+}
+
+.socialMedia a {
+  margin: 0 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.socialMedia a:hover {
+  text-decoration: underline;
+}

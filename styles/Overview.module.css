@@ -1,0 +1,14 @@
+.main {
+  padding: 2rem;
+}
+
+.servicesList {
+  display: grid;
+  gap: 2rem;
+}
+
+.service {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}

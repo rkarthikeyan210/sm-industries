@@ -1,0 +1,53 @@
+/* Home.module.css */
+.hero {
+  background-image: url('../public/images/hero.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+.servicesGrid, .recentWorkGrid, .newsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.serviceItem, .workItem, .newsItem {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer .socialMedia {
+  margin-top: 1rem;
+}
+
+.footer .socialMedia a {
+  margin: 0 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.footer .socialMedia a:hover {
+  text-decoration: underline;
+}
